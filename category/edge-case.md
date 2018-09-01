@@ -1,27 +1,10 @@
 ---
 layout: category
-title: Edge Case
+title: Magento
 ---
 
-Sample category page. You need to create a page for each category.
-The category is inferred from the title of the page, but you can also
-specify it with the `category` attribute in the front matter.
-
-```md
----
-layout: category
-title: My Category
----
-```
-
-Or ...
-
-```md
----
-layout: category
-title: Fancy Title
-category: My Category
----
-```
-
-Posts get listed below here.
+> Magento is an ecommerce platform built on open source technology
+> which provides online merchants with a flexible shopping cart system,
+> as well as control over the look, content and functionality of their
+> online store. Magento offers powerful marketing, search engine optimization,
+> and catalog-management tools.
