@@ -2,7 +2,7 @@ markdown: kramdown
 highlighter: rouge
 title: 'Nickolas Burr'
 tagline: 'Software Developer'
-description: 'Software Developer from Buffalo, NY, USA'
+description: 'Buffalo, NY, USA'
 url: https://blog.nickolasburr.com
 author:
   name: 'Nickolas Burr'
