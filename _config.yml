@@ -1,0 +1,18 @@
+markdown: kramdown
+highlighter: rouge
+title: 'Nickolas Burr'
+tagline: 'Tagline'
+description: 'Description'
+url: https://blog.nickolasburr.com
+author:
+  name: 'Nickolas Burr'
+  url: https://github.com/nickolasburr
+paginate: 5
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+version: 3.7.1
+sidebar_home_link: true
+github:
+  repo: https://github.com/nickolasburr/blog
