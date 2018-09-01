@@ -1,82 +1,52 @@
 ---
 layout: post
-title: Hello Hydeout
-excerpt_separator:  <!--more-->
+title: A hot summer day
+excerpt_separator: <!--more-->
 ---
 
-Hydeout updates the original [Hyde](https://github.com/poole/hyde)
-theme for [Jekyll](http://jekyllrb.com) 3.x and adds new functionality.
+It was a hot summer day when I wrote this post. Just thought you
+might want to know that. For those curious in learning more about
+me and my interests, continue reading.
 
-### Keep It Simple
+> Avg. Bounce Rate: 98%
 
-In keeping with the original Hyde theme, Hydeout aims to keep the overall
-design lightweight and plugin-free. JavaScript is currently limited only
-to Disqus and Google Analytics (and is only loaded if you provide configuration
-variables).
+### Interests
 
-Hydeout makes heavy use of Flexbox in its CSS. If Flexbox is not available,
-the CSS degrades into a single column layout.
+My main interests are:
 
-### Customization
++ Open source
++ Reading manpages
++ Watching TV
++ Walking for exercise
 
-Hydeout replaces Hyde's class-based theming with the use
-of the following SASS variables:
+I do a lot of each.
 
-```scss
-$sidebar-bg-color: #202020 !default;
-$sidebar-sticky: true !default;
-$layout-reverse: false !default;
-$link-color: #268bd2 !default;
-```
+### Preferences
 
-To override these variables, create your own `assets/css/main.scss` file.
-Define your own variables, then import in Hydeout's SCSS, like so:
+These are questions I've been asked over the past ~6 years.
 
-```
----
-# Jekyll needs front matter for SCSS files
----
+> What is your favorite text editor?
 
-$sidebar-bg-color: #ac4142;
-$link-color: #ac4142;
-$sidebar-sticky: false;
-@import "hydeout";
-```
+Vim. Although I use Sublime occasionally when I need a GUI.
 
-See the [_variables](_sass/hydeout/_variables.scss) file for other variables
-you can override.
+> What is your favorite programming language?
 
-You can also insert custom head tags (e.g. to load your own stylesheets) by
-defining your own `_includes/custom-head.html` or insert tags at the end
-of the body (e.g. for custom JS) by defining your own
-`_includes/custom-foot.html`.
+I'll be honest, I hate this question. It's like asking
+_what is your favorite power tool?_. I'm a huge fan of
+the impact drill but I wouldn't use an impact drill to
+cut a 2x4 in half.
 
-### New Features
+My favorite compiled language is C. Akin to Schrödinger's cat,
+C can be thought of as simulatenously beautiful and abhorrent.
 
-* Hydeout also adds a new tags page (accessible in the sidebar) and a new
-  "category" layout for dedicated category pages.
+My favorite interpreted language is Ruby. It's intuitive and
+elegant, yet powerful and robust.
 
-* Category pages are automatically added to the sidebar. All other pages
-  must have `sidebar_link: true` in their front matter to show up in
-  the sidebar.
+> What is your favorite OS?
 
-* A simple redirect-to-Google search is available. If you want to use
-  Google Custom Search or Algolia or something with more involved,
-  override the `search.html`.
+For my personal workstation, macOS. For running applications
+in the cloud, Debian. Or Ubuntu.
 
-* Disqus integration is ready out of the box. Just add the following to
-  your config file:
+> What is your favorite VCS?
 
-  ```yaml
-  disqus:
-    shortname: my-disqus-shortname
-  ```
-
-  If you don't want Disqus or want to use something else, override
-  `comments.html`.
-
-* For Google Analytics support, define a `google_analytics` variable with
-  your property ID in your config file.
-
-There's also a bunch of minor tweaks and adjustments throughout the
-theme. Hope this works for you!
+Git. I've grown to really appreciate the sheer power it offers.
