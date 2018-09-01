@@ -15,5 +15,5 @@ plugins:
 version: 3.7.1
 sidebar_home_link: true
 github:
-  repo: https://github.com/nickolasburr/blog
+  profile: https://github.com/nickolasburr
 google_analytics: 'UA-113897119-3'

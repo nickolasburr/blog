@@ -1,14 +1,10 @@
 <nav id="sidebar-icon-links">
-  {% if site.github.repo %}
+  {% if site.github.profile %}
     <a id="github-link"
-       class="icon" title="Github Project" aria-label="Github Project"
-       href="{{ site.github.repo }}">
+       class="icon" title="Github Profile"
+       aria-label="Github Profile"
+       href="{{ site.github.profile }}">
       {% include svg/github.svg %}
-    </a>
-    <a id="github-download-link"
-       class="icon" title="Download" aria-label="Download"
-       href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">
-      {% include svg/download.svg %}
     </a>
   {% endif %}
 
