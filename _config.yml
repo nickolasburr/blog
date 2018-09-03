@@ -16,4 +16,6 @@ version: 3.7.1
 sidebar_home_link: true
 github:
   profile: https://github.com/nickolasburr
+disqus:
+  shortname: nickolasburr
 google_analytics: 'UA-113897119-3'
