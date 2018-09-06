@@ -35,6 +35,7 @@ main, article, section { display: block; }
 a {
   color: $link-color;
   text-decoration: none;
+  word-wrap: break-word;
 
   // `:focus` is linked to `:hover` for basic accessibility
   &:hover,
