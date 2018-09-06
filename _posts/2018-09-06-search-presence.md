@@ -17,8 +17,8 @@ I assure you, it's just a combination of mild paranoia and subtle
 interest in which GitHub repositories Google finds to be the most
 stageworthy. The results can be very interesting, at times.
 
-Below are a few links I've verified as references to me on the web.
+Below are a few links I've verified as references to me on the web:
 
-+ https://invuedigital.com/blog/toronto-amp-roadshow-invue/
-+ https://onceagainnutbutterblog.com/2014/07/02/exploring-the-softer-side-of-killer-bees/
-+ https://www.sunyjcc.edu/news-note/part-time-deans-list-announced
++ [https://invuedigital.com/blog/toronto-amp-roadshow-invue/](https://invuedigital.com/blog/toronto-amp-roadshow-invue/)
++ [https://onceagainnutbutterblog.com/2014/07/02/exploring-the-softer-side-of-killer-bees/](https://onceagainnutbutterblog.com/2014/07/02/exploring-the-softer-side-of-killer-bees/)
++ [https://www.sunyjcc.edu/news-note/part-time-deans-list-announced](https://www.sunyjcc.edu/news-note/part-time-deans-list-announced)
