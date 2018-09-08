@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Magento 1.x End of Life
+title: Magento 1.x End of Life: June 2020
 tags: magento ecommerce
 excerpt_separator: <!--more-->
 ---
