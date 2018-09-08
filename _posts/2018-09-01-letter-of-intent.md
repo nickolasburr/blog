@@ -10,6 +10,8 @@ technical information to people solving problems in the
 areas of software, cloud computing, CI/CD, unit testing,
 automation, and other related topics.
 
+<!--more-->
+
 The core objectives are as follows:
 
 + Focused topics (meta topics should be fewer, and labeled as such)
