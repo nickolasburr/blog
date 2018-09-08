@@ -12,6 +12,7 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
+  - jekyll-sitemap
 version: 3.7.1
 sidebar_home_link: true
 github:
