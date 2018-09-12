@@ -2,7 +2,8 @@ markdown: kramdown
 highlighter: rouge
 title: 'Nickolas Burr'
 tagline: 'Statically-typed, polyglottal Buffalonian'
-description: 'Buffalo, NY, USA'
+description: 'Nickolas Burr is an American software developer from Buffalo, NY, USA.'
+location: 'Buffalo, NY, USA'
 url: https://blog.nickolasburr.com
 author:
   name: 'Nickolas Burr'
@@ -12,6 +13,7 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
+  - jekyll-seo-tag
   - jekyll-sitemap
 version: 3.7.1
 sidebar_home_link: true
