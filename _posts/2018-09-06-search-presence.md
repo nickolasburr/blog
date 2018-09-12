@@ -2,6 +2,8 @@
 layout: post
 title: Search Presence
 tags: self
+categories:
+  - docker
 excerpt_separator: <!--more-->
 ---
 
