@@ -23,7 +23,7 @@ stageworthy. The results can be very interesting, at times.
 
 Below are a few links I've verified as references to me on the web,
 from different points in my life. It's crazy how life can change so
-much in the matter of only a few years.
+much in a matter of only a few years.
 
 When I was in high school:
 
