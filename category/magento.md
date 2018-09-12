@@ -1,6 +1,7 @@
 ---
 layout: category
 title: Magento
+category: magento
 ---
 
 > Magento is an ecommerce platform built on open source technology
