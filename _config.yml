@@ -1,7 +1,7 @@
 markdown: kramdown
 highlighter: rouge
 title: 'Nickolas Burr'
-tagline: 'Statically-typed, polyglottal Buffalonian'
+tagline: 'Dynamically-typed, garbage-collected Buffalonian.'
 description: 'Nickolas Burr is an American software developer from Buffalo, NY, USA.'
 location: 'Buffalo, NY, USA'
 url: https://blog.nickolasburr.com
