@@ -4,6 +4,7 @@ title: Search Presence
 tags: docker self
 categories:
   - docker
+redirect_from: "/2018/09/06/search-presence.html"
 excerpt_separator: <!--more-->
 ---
 
