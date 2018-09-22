@@ -11,20 +11,31 @@ excerpt_separator: <!--more-->
 Magento is the quintessential target for credit card theft.
 That might seem obvious, but the reasons why are actually
 complicated and multifactorial, so I'll spare the details
-for a different post. For the sake of this post, understand
-that Magento is an especially targeted platform by credit
-card fraudsters.
+for a different post. For the purpose of this post, just
+understand that Magento is an especially targeted platform
+for credit card fraud.
 
 <!--more-->
 
 ## Background
 
+Data breaches can be very costly, especially for PCI-compliant
+merchants rated between levels 1-3. In an era marked by newsreel
+data breaches and public outcry over privacy concerns, it is, now
+more than ever, the compulsory duty of online merchants to make
+the investment in an intelligent, reliable, and dedicated Magento
+hosting provider. Merchants who try to take shortcuts and save
+a few extra dollars now _always_ end up regretting that decision
+down the road. Don't pay for free lessons.
+
+## Introduction
+
 There are several common threat vectors that have been used
 over the years to exploit Magento. For many of these attack
 types, the only way to mitigate the problem is to patch the
-application. However, for several of these exploits, aspects
-of the environment must also be weak for a vulnerability to
-be exploitable.
+application. However, there exists a subset of all exploits
+that rely on one or more weak aspects of the environment in
+order for the vulnerability to be exploitable.
 
 By hardening the environment around Magento, you can effectively
 eliminate certain attack types, sacrificing little or nothing as
@@ -52,18 +63,22 @@ information, ERP system credentials, and much, much more.
 This particular attack is common under the following conditions:
 
 - Default/weak front name for administrative panel
-- Weak user password requirements
+- Default administrator username
+- Weak password requirements
 - Lack of access and activity monitoring
 
 #### Mitigation
 
 Effectively managing brute-force attacks is probably the easiest
-type of attack to mitigate. By using the following tools (or any
-variants), you will place yourself in a better position to handle
+type of attack to mitigate. As an example, by using the following
+tools (or any of their variants), you can develop a more transparent
+monitoring system that will put you in a better position to handle
 brute-force attacks at both the network and application level.
 
+Techniques and tools I use include:
+
 - Strong front name for administrative panel
-- Strong user password requirements
+- Strong password requirements<sup>1</sup>
 - Admin access and activity monitoring
   + [Admin Actions Log](https://amasty.com/admin-actions-log.html)
 - Multifactor Authentication
@@ -120,5 +135,49 @@ all credit card transactions to a remote server.
 
 This type of attack is moderately defensible. While execution of
 malicious PHP code can result in sensitive information being leaked,
-you can minimize scope and damage by setting rigid permissions on
-the underlying filesystem.
+this vector can be minimized greatly with a strong understanding of
+Unix-based filesystem permissions and a dash of creativity.
+
+__Warning__: This is one specific area where I fervently disagree
+with the Magento Inc. recommended approach, so take my approach at
+face value. It's battle-tested and has saved my rear many a time.
+
+###### Harden File Permissions
+
+Magento only requires write access to a small subset of directories,
+such as `var` and `media`. Since the webserver runs as an unprivileged
+user like `apache`, `nginx`, or `www-data`, any malicious code executed
+as the result of an input validation exploit would also be ran as that
+user. Likewise, setting the owner and group of all files and directories
+to a privileged user, with the exception of `var` and `media`, would make
+those files and directories unwritable by the webserver user.
+
+###### e2fsprogs
+
+Another tactic is to use `e2fsprogs`, particularly `chattr`. In addition
+to hardening file permissions, you can use extended filesystem attributes
+to prevent manipulation of files and directories. This is particularly
+useful because to modify an inode's attributes requires elevated privileges,
+which the webserver user is lacking.
+
+###### Train of thought
+
+The main reason why I'm so adamantly against the Magento Inc. approach is
+because it gives the webserver user write access to core files, something
+it shouldn't have. The webserver user only needs read access to core files,
+so when you give it write access, you're opening yourself up to issues that
+are otherwise preventable.
+
+## Magento Security Best Practices
+
+In addition to what I've outline above, Magento provides a nicely
+detailed guide on security best practices, which you can find [here](https://magento.com/security/best-practices/security-best-practices).
+
+## Footnotes
+
+1. The most common counterargument I hear to enforcing stronger
+passwords is that they're impossible to remember, which causes
+employee frustation. My recommendation is this: encourage them
+to use a password manager. As an example, Chrome has an excellent
+password manager built into it, and it's extremely easy to use.
+The same goes for Firefox and any other major browser.
