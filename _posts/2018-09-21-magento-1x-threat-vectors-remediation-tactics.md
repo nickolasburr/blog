@@ -34,7 +34,7 @@ I'm going to walk through a few popular attack types, and show how
 simple countermeasures can potentially save your Magento storefront
 from falling prey to the malevolent neckbeards.
 
-### Admin brute-force attacks
+## Admin brute-force attacks
 
 > A brute force attack is a trial-and-error method used to obtain
 > information, such as a user password or personal identification
@@ -72,7 +72,7 @@ brute-force attacks at both the network and application level.
   + [Cloudflare](https://www.cloudflare.com)
   + [Akamai](https://www.akamai.com)
 
-### XSS attacks
+## XSS attacks
 
 > Cross-site scripting (XSS) attacks are a type of injection, in
 > which malicious scripts are injected into otherwise benign and
@@ -101,7 +101,7 @@ prevent the browser from loading the JS file, protecting the user
 and giving you time to apply the appropriate patch(es), and clean
 the database table.
 
-### Input Validation
+## Input Validation
 
 > Input validation, also known as data validation, is the proper
 > testing of any input supplied by a user or application. Input
@@ -117,6 +117,6 @@ all credit card transactions to a remote server.
 #### Mitigation
 
 This type of attack is moderately defensible. While execution of
-malicious PHP code result in sensitive information being leaked,
-you can prevent modification of Magento core by setting rigid file
-permissions on all core file and directories.
+malicious PHP code can result in sensitive information being leaked,
+you can minimize scope and damage by setting rigid permissions on
+the underlying filesystem.
