@@ -87,6 +87,16 @@ h2.post-title, h2.page-title {
   }
 }
 
+.post-body {
+  ul {
+    padding-left: 2rem;
+
+    > li ul {
+      padding-left: 1rem;
+    }
+  }
+}
+
 button.disqus-load {
   margin-top: 1em;
 }
