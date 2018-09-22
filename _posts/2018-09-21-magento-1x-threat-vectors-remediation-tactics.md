@@ -17,6 +17,8 @@ card fraudsters.
 
 <!--more-->
 
+## Background
+
 There are several common threat vectors that have been used
 over the years to exploit Magento. For many of these attack
 types, the only way to mitigate the problem is to patch the
