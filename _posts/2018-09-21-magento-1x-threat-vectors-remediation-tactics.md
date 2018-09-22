@@ -53,12 +53,10 @@ from falling prey to the malevolent neckbeards.
 > information, such as a user password or personal identification
 > number (PIN).
 
-#### Threat
-
-Successful brute-force attacks give an unauthorized individual
-administrative access, which can include access to sensitive
-information like payment gateway credentials, customer and order
-information, ERP system credentials, and much, much more.
+__Threat__: Successful brute-force attacks give an unauthorized
+individual administrative access, which can include access to
+sensitive information like payment gateway credentials, customer
+and order information, ERP system credentials, and much, much more.
 
 This particular attack is common under the following conditions:
 
@@ -67,13 +65,11 @@ This particular attack is common under the following conditions:
 - Weak password requirements
 - Lack of access and activity monitoring
 
-#### Mitigation
-
-Effectively managing brute-force attacks is probably the easiest
-type of attack to mitigate. As an example, by using the following
-tools (or any of their variants), you can develop a more transparent
-monitoring system that will put you in a better position to handle
-brute-force attacks at both the network and application level.
+__Mitigation__: Effectively managing brute-force attacks is probably
+the easiest type of attack to mitigate. As an example, by using the
+following tools (or any of their variants), you can develop a more
+transparent monitoring system that will put you in a better position
+to handle brute-force attacks at both the network and application level.
 
 Techniques and tools I use include:
 
@@ -102,17 +98,13 @@ There are two types of XSS attacks:
 
 To keep things simple, we'll focus on persistent XSS attacks.
 
-#### Threat
+__Threat__: Due to an XSS vulnerability in Magento, an attacker
+injected an HTML `<script>` tag into a database table that loads
+a malicious JavaScript file from a remote server when a user visits
+the website.
 
-Due to an XSS vulnerability in Magento, an attacker injected
-an HTML `<script>` tag into a database table that loads a
-malicious JavaScript file from a remote server when a user
-visits the website.
-
-#### Mitigation
-
-The best mitigation strategy for these types of attacks is to
-use [CSP](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP)
+__Mitigation__: The best mitigation strategy for these types of
+attacks is to use [CSP](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP)
 and whitelist what origins JS files can be loaded from. It will
 prevent the browser from loading the JS file, protecting the user
 and giving you time to apply the appropriate patch(es), and clean
@@ -125,18 +117,15 @@ the database table.
 > validation prevents improperly formed data from entering an
 > information system.
 
-#### Threat
+__Threat__: Due to an unsanitized input field, an attacker was able
+to execute arbitrary PHP code on the server, modifying Magento core
+to send all credit card transactions to a remote server.
 
-Due to an unsanitized input field, an attacker was able to execute
-arbitrary PHP code on the server, modifying Magento core to send
-all credit card transactions to a remote server.
-
-#### Mitigation
-
-This type of attack is moderately defensible. While execution of
-malicious PHP code can result in sensitive information being leaked,
-this vector can be minimized greatly with a strong understanding of
-Unix-based filesystem permissions and a dash of creativity.
+__Mitigation__: This type of attack is moderately defensible. While
+execution of malicious PHP code can result in sensitive information
+being leaked, this vector can be minimized greatly with a strong
+understanding of Unix-based filesystem permissions and a dash of
+creativity.
 
 __Warning__: This is one specific area where I fervently disagree
 with the Magento Inc. recommended approach, so take my approach at
