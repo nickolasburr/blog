@@ -24,9 +24,11 @@ merchants rated between levels 1-3. In an era marked by newsreel
 data breaches and public outcry over privacy concerns, it is, now
 more than ever, the compulsory duty of online merchants to make
 the investment in an intelligent, reliable, and dedicated Magento
-hosting provider. Merchants who try to take shortcuts and save
-a few extra dollars now _always_ end up regretting that decision
-down the road. Don't pay for free lessons.
+hosting provider. Merchants that try to take shortcuts and save
+a few extra short-term dollars _always_ end up regretting that
+decision down the road. Don't pay for free lessons.
+
+---
 
 ## Introduction
 
@@ -46,6 +48,8 @@ and security.
 I'm going to walk through a few popular attack types, and show how
 simple countermeasures can potentially save your Magento storefront
 from falling prey to the malevolent neckbeards.
+
+---
 
 ## Admin brute-force attacks
 
@@ -85,6 +89,8 @@ Techniques and tools I use include:
   + [Cloudflare](https://www.cloudflare.com)
   + [Akamai](https://www.akamai.com)
 
+---
+
 ## XSS attacks
 
 > Cross-site scripting (XSS) attacks are a type of injection, in
@@ -110,6 +116,8 @@ prevent the browser from loading the JS file, protecting the user
 and giving you time to apply the appropriate patch(es), and clean
 the database table.
 
+---
+
 ## Input Validation
 
 > Input validation, also known as data validation, is the proper
@@ -127,9 +135,14 @@ being leaked, this vector can be minimized greatly with a strong
 understanding of Unix-based filesystem permissions and a dash of
 creativity.
 
-__Warning__: This is one specific area where I fervently disagree
-with the Magento Inc. recommended approach, so take my approach at
-face value. It's battle-tested and has saved my rear many a time.
+---
+
+<strong class="warning">Warning</strong>: This is one specific area
+where I fervently disagree with the Magento Inc. recommended approach,
+so take it at face value. It's battle-tested and has saved my rear many
+times.
+
+---
 
 ###### Harden File Permissions
 
@@ -143,11 +156,10 @@ those files and directories unwritable by the webserver user.
 
 ###### e2fsprogs
 
-Another tactic is to use `e2fsprogs`, particularly `chattr`. In addition
-to hardening file permissions, you can use extended filesystem attributes
-to prevent manipulation of files and directories. This is particularly
-useful because to modify an inode's attributes requires elevated privileges,
-which the webserver user is lacking.
+In addition to hardening permissions, another possible tactic is `e2fsprogs`,
+which allows use of extended filesystem attributes on files and directories.
+This is particularly useful because `e2fsprogs` utilities require elevated
+privileges by the invoking user, and the webserver user is unprivileged.
 
 ###### Train of thought
 
@@ -157,10 +169,14 @@ it shouldn't have. The webserver user only needs read access to core files,
 so when you give it write access, you're opening yourself up to issues that
 are otherwise preventable.
 
+---
+
 ## Magento Security Best Practices
 
 In addition to what I've outline above, Magento provides a nicely
 detailed guide on security best practices, which you can find [here](https://magento.com/security/best-practices/security-best-practices).
+
+---
 
 ## Footnotes
 
