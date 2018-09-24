@@ -28,8 +28,6 @@ hosting provider. Merchants that try to take shortcuts and save
 a few extra short-term dollars _always_ end up regretting that
 decision down the road. Don't pay for free lessons.
 
----
-
 ## Introduction
 
 There are several common threat vectors that have been used
@@ -45,13 +43,13 @@ a consequence. Such an approach is especially useful for high-risk,
 high-volume storefronts that prioritize availability, reliability,
 and security.
 
+## Walkthrough
+
 I'm going to walk through a few popular attack types, and show how
 simple countermeasures can potentially save your Magento storefront
 from falling prey to the malevolent neckbeards.
 
----
-
-## Admin brute-force attacks
+### Admin brute-force attacks
 
 > A brute force attack is a trial-and-error method used to obtain
 > information, such as a user password or personal identification
@@ -89,9 +87,7 @@ Techniques and tools I use include:
   + [Cloudflare](https://www.cloudflare.com)
   + [Akamai](https://www.akamai.com)
 
----
-
-## XSS attacks
+### XSS attacks
 
 > Cross-site scripting (XSS) attacks are a type of injection, in
 > which malicious scripts are injected into otherwise benign and
@@ -116,9 +112,7 @@ prevent the browser from loading the JS file, protecting the user
 and giving you time to apply the appropriate patch(es), and clean
 the database table.
 
----
-
-## Input Validation
+### Input Validation
 
 > Input validation, also known as data validation, is the proper
 > testing of any input supplied by a user or application. Input
@@ -169,14 +163,10 @@ it shouldn't have. The webserver user only needs read access to core files,
 so when you give it write access, you're opening yourself up to issues that
 are otherwise preventable.
 
----
-
 ## Magento Security Best Practices
 
 In addition to what I've outline above, Magento provides a nicely
 detailed guide on security best practices, which you can find [here](https://magento.com/security/best-practices/security-best-practices).
-
----
 
 ## Footnotes
 
