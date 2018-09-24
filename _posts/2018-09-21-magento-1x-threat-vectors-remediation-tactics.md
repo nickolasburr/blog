@@ -42,7 +42,7 @@ order for the vulnerability to be exploitable.
 By hardening the environment around Magento, you can effectively
 eliminate certain attack types, sacrificing little or nothing as
 a consequence. Such an approach is especially useful for high-risk,
-high-volume storefronts that prioritize availability, usability,
+high-volume storefronts that prioritize availability, reliability,
 and security.
 
 I'm going to walk through a few popular attack types, and show how
