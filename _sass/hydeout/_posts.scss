@@ -41,6 +41,19 @@ h2.page-title {
   }
 }
 
+// h3 subtitle
+h3.post-subtitle,
+h3.page-subtitle {
+  border-left: 3px solid #009688;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 40px;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  padding-left: 1rem;
+}
+
 // Meta data line below post title
 .post-meta {
   margin-top: -.5rem;
