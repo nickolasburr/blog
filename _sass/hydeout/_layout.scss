@@ -96,7 +96,7 @@ body {
           $section-spacing
           $section-spacing;
 
-  h1, h2 {
+  h1, h2, h3 {
     color: white;
 
     &:last-child {
@@ -107,11 +107,10 @@ body {
 
 
 /* -----------------------------------------------------------
-  Mobile view for home page)
+  Mobile view for home page
 ----------------------------------------------------------- */
 
 .home #sidebar {
-
   // Center sidebar content
   text-align: center;
 
