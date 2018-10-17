@@ -37,7 +37,7 @@ dictionary attack, and has proven widely effective against Magento.
 
 ## Why are brute-force attacks so effective?
 
-1. Lack of monitoring
+**Lack of monitoring**
 
 > Effective monitoring requires effective tools and planning, which requires knowledge,
 > time, and money.
@@ -50,13 +50,13 @@ you need to create an account with the provider, update DNS, wait for DNS change
 monitoring rules (e.g. page rules in Cloudflare), and more, just to get started. It can
 feel tedious and overwhelming for many people.
 
-2. Defaults
+**Defaults**
 
 When it comes to Magento administration, using any of the defaults (sans admin panel URI, IMHO)
 is strongly discouraged. If you're using a username like `admin` or `admin1`, chances are you're
 probably not super picky about passwords either. This is where most of the success happens.
 
-3. Weak password requirements
+**Weak password requirements**
 
 This goes along with #2, insofar as it simplifies the brute-force attacking process. Cracking
 passwords is an exponential problem, so short, weak passwords make the process exponentially
@@ -77,5 +77,7 @@ accounts:
 + [Amasty Two-Factor Authentication](https://amasty.com/magento-two-factor-authentication.html)
 + [Tokenize User Authentication](https://store.nickolasburr.com/tokenize-user-authentication.html)
 
-For monitoring admin activity, Amasty's [Admin Actions Log](https://amasty.com/admin-actions-log.html)
-extension is tried and true.
+For monitoring admin activity and connections:
+
++ [Admin Actions Log](https://amasty.com/admin-actions-log.html)
++ [Cloudflare](https://www.cloudflare.com) with Page Rules for the admin panel URI
