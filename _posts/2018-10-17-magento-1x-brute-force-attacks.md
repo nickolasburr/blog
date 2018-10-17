@@ -65,7 +65,9 @@ faster.
 ## What can I do to protect my store?
 
 ---
+
 <strong class="warning">Warning</strong>: Sudden, brief waves of shameless self-promotion.
+
 ---
 
 Since we're talking about brute-force attacks specifically, let's focus in on those products
