@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Magento Brute-force Attacks
+title: Magento brute-force attacks
 subtitle: And what you can do to fight back
 tags: magento security ecommerce
 categories:
@@ -64,20 +64,18 @@ faster.
 
 ## What can I do to protect my store?
 
----
-
-<strong class="warning">Warning</strong>: Sudden, brief waves of shameless self-promotion.
-
----
-
 Since we're talking about brute-force attacks specifically, let's focus in on those products
 for Magento. Below are options for anyone looking to better protect both customer and admin
 accounts:
 
-+ [Amasty Two-Factor Authentication](https://amasty.com/magento-two-factor-authentication.html)
-+ [Tokenize User Authentication](https://store.nickolasburr.com/tokenize-user-authentication.html)
++ [Two-Factor Authentication](https://amasty.com/magento-two-factor-authentication.html) (MFA, Amasty)
++ [Tokenize User Authentication](https://store.nickolasburr.com/tokenize-user-authentication.html) (TOTP, yours truly)
 
 For monitoring admin activity and connections:
 
 + [Admin Actions Log](https://amasty.com/admin-actions-log.html)
 + [Cloudflare](https://www.cloudflare.com) with Page Rules for the admin panel URI
+
+This list is not exhaustive by any means, but it's a starting point. Using any of the tools
+above will put you in a better spot to secure your store. However, it's up to you to take
+the initiative.
