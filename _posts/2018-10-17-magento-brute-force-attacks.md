@@ -17,7 +17,7 @@ over the past few years.
 <!--more-->
 
 I briefly discussed brute-force attacks in a [previous post](https://blog.nickolasburr.com/magento/security/2018/09/21/magento-1x-threat-vectors-remediation-tactics.html),
-but I want to dive deeper and answer the following questions:
+but I want to expand upon it and answer the following questions:
 
 1. What is a brute-force attack?
 2. Why are brute-force attacks so effective?
