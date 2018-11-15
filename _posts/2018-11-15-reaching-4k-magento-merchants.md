@@ -61,10 +61,12 @@ list into chunks, find the proper business email (semi) manually, and send the e
 in daily blasts of 100.
 
 ---
+
 At this point, I want to highlight that I'm not some skeevy email spammer trying to rip
 people off on the Internet. The entire point of the exercise was to alert merchants of
 a major security risk, while promoting a product of mine that would help them address
 the underlying problem. That's my story, and I'm sticking to it.
+
 ---
 
 ## Takeaways
