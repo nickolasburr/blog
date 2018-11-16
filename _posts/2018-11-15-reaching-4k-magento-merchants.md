@@ -79,6 +79,10 @@ baby.
 
 ---
 
+Unsurprisingly, I've received very few responses, most of which either say "No, thanks"
+or "Stop spamming me, as@$&le". Thankfully, I'm nearing the end of the campaign and I
+couldn't be more excited.
+
 ## Takeaways
 
 I always try to take something positive from an experience. While I may have felt cheap
