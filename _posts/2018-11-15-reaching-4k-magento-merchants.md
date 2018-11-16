@@ -86,8 +86,9 @@ couldn't be more excited.
 ## Takeaways
 
 I always try to take something positive from an experience. While I may have felt cheap
-and dirty sending unsolicited emails, it was for a noble cause. And as much as I would
+and dirty sending unsolicited emails, it was for a noble cause. And, as much as I would
 love for merchants to adopt and utilize the extension, my only real wish is the email
 will reach someone, somewhere, and motivate them to improve security, because the
 [current state of affairs](https://gwillem.gitlab.io/2018/11/12/merchants-struggle-with-magecart-reinfections/)
-is bleak and, without active merchant participation, it will only continue to worsen.
+is rather bleak and, without active merchant participation, it will only continue to
+worsen. I've done my part, and I hope others will do theirs.
