@@ -6,6 +6,7 @@ categories:
   - magento
   - security
 redirect_from: "/magento/security/2018/11/15/reaching-4k-magento-merchants.html"
+canonical_link: "/magento/security/2018/11/15/reaching-4k-vulnerable-magento-merchants.html"
 excerpt_separator: <!--more-->
 ---
 
