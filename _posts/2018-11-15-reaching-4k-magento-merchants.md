@@ -1,10 +1,11 @@
 ---
 layout: post
-title: Reaching 4K Magento merchants
+title: Reaching 4K vulnerable Magento merchants
 tags: magento security ecommerce
 categories:
   - magento
   - security
+redirect_from: "/magento/security/2018/11/15/reaching-4k-magento-merchants.html"
 excerpt_separator: <!--more-->
 ---
 
