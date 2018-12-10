@@ -19,11 +19,11 @@ and yet, somehow, I find it's just not that easy, at least for me.
 ## Pre-Mac era (1997 - 2001)
 
 Born and raised in Southern Tier WNY, I was the youngest of four children
-to a long line of educators and engineers. At an early age, I was taught
-how to think practically, choose wisely, and use resources sparingly. I
-learned a lot about hard work, perseverance, and loyalty. I also grew to
-understand the extraordinary value of computers, and how they've vastly
-improved the quality of life.
+to a family of educators and engineers. At an early age, I was taught how
+to think practically, choose wisely, and use resources sparingly. I learned
+a lot about hard work, perseverance, and loyalty. I also grew to understand
+the extraordinary value of computers, and how they've vastly improved the
+quality of life.
 
 The first computer I'd ever used was our family computer, an IBM Aptiva
 that had a whopping 32MB RAM chipset and a hefty 4GB hard drive (what is
