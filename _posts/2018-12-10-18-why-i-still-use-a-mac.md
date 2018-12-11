@@ -91,6 +91,8 @@ option, either because they don't have someone who can support it properly, or t
 corporate policies that limit users to Windows or Mac. I've run into this multiple times
 in the past few years. Consequently, if I want a Unix-like OS, I'm forced to use a Mac.
 
+![MacBook Pro Unibody](/assets/img/macbook-pro-unibody-2012.jpg)
+
 ## So why stay around?
 
 To a large extent, I still enjoy using my Mac. Most of my complaints are with Apple as an
