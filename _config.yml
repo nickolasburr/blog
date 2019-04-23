@@ -1,12 +1,12 @@
 markdown: kramdown
 highlighter: rouge
-title: 'Nickolas Burr'
-tagline: 'Dynamically-typed, garbage-collected Buffalonian.'
-description: 'Nickolas Burr is an American software developer from Buffalo, NY, USA.'
-location: 'Buffalo, NY, USA'
+title: "Nickolas Burr"
+tagline: "Dynamically-typed, garbage-collected Buffalonian."
+description: "My name is Nickolas Burr and I'm a Magento developer from Buffalo, NY. I use this space to discuss everything from software design patterns to personal growth, and a whole lot in between."
+location: "Buffalo, NY, USA"
 url: https://blog.nickolasburr.com
 author:
-  name: 'Nickolas Burr'
+  name: "Nickolas Burr"
   url: https://github.com/nickolasburr
 paginate: 5
 plugins:
@@ -22,4 +22,4 @@ github:
   profile: https://github.com/nickolasburr
 disqus:
   shortname: nickolasburr
-google_analytics: 'UA-113897119-3'
+google_analytics: "UA-113897119-3"
